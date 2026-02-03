@@ -202,7 +202,7 @@ switch5 = CTkSwitch(master=frame_left, text_font="Roboto", text="Adv Symbols ( {
                     button_color="grey", button_hover_color="white", fg_color="red", command=determineSymbolsC)
 switch5.pack(padx=10, pady=2, anchor=CENTER)
 
-# Drop down context menu items
+# Drop down context menu items (replace this later)
 v = ["7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"]
 dropMenu = CTkComboBox(master=frame_left, values=v, width=70, text_font="Roboto, 15", button_hover_color="red",
                        dropdown_hover_color="red")
